@@ -1,0 +1,15 @@
+body{
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+h3{
+    margin-right: 10%;
+    text-align: right;
+}
