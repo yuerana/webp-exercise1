@@ -10,7 +10,28 @@
 <body>
     <h1>日本大学文理学部情報科学科 Webプログラミング演習課題</h1>
     <h3>5421057 朱劼</h3>
-    <p class="title">第一回の演習課題です</p>
-    <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam suscipit voluptate asperiores harum perspiciatis, ratione accusamus recusandae blanditiis dolores dolore quia optio. Impedit nam, laborum quasi culpa temporibus delectus itaque!</p>
+    <p class="text">第一回の演習課題です。<br><br>
+        数字あてゲームをやります
+    </p>
+
+    <div class="text">
+        <h1>Number guessing game</h1>
+
+        <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
+
+        <div class="form">
+          <label for="guessField">Enter a guess: </label>
+          <input type="number" min="1" max="100" required id="guessField" class="guessField">
+          <input type="submit" value="Submit guess" class="guessSubmit">
+        </div>
+
+        <div class="resultParas">
+          <p class="guesses"></p>
+          <p class="lastResult"></p>
+          <p class="lowOrHi"></p>
+        </div>
+
+        <script src="./script/script.js"></script>
+    </div>
 </body>
 </html>

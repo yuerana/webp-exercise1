@@ -14,15 +14,19 @@ h3{
     text-align: right;
 }
 
-p.title{
-    text-align: center;
-    margin: 100px;
-}
-
-p.text{
+.text{
     margin: 20px;
     border: rgb(188, 107, 107) 4px outset;
     box-shadow: 12px 12px 2px 1px rgba(104, 98, 104, 0.2);
     padding: 20px;
     text-align: left;
+}
+
+.form input[type="number"] {
+    width: 200px;
+}
+
+.lastResult {
+    color: white;
+    padding: 3px;
 }
