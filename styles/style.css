@@ -1,7 +1,10 @@
-body{
-    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+*{
     margin: 0;
     padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
 }
 h1{
     text-align: center;
@@ -14,19 +17,51 @@ h3{
     text-align: right;
 }
 
-.text{
-    margin: 20px;
+.text, .main{
     border: rgb(188, 107, 107) 4px outset;
     box-shadow: 12px 12px 2px 1px rgba(104, 98, 104, 0.2);
-    padding: 20px;
     text-align: left;
+    width: 600px;
+    margin: 40px auto;
+    position: relative;
 }
 
-.form input[type="number"] {
-    width: 200px;
+.text{
+    padding: 20px;
 }
 
-.lastResult {
-    color: white;
-    padding: 3px;
+.main{
+    height: 400px;
+    overflow: hidden;
+}
+
+.images{
+    list-style: none;
+    width: 3700px;
+    position: absolute;
+    left: -5px;
+}
+
+.img{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+#guide{
+    position: absolute;
+    bottom: 5px;
+    left: 230px;
+}
+
+#guide b{
+    display: inline-block;
+    background-color: #6ae1f4;
+    width: 18px;
+    height: 18px;
+    opacity: 0.6;
+    margin: 0 4px;
+    border-radius: 50%;
+}
+#guide b:hover{
+    background-color: rgb(60, 56, 50, 0.5);
 }
